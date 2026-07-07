@@ -7,6 +7,7 @@ ___
 	- **Senza:** bisognerebbe andare fisicamente alla fermata, consultare orari cartacei e stimare il percorso a memoria.
 - **Face recognition:** amplifica la capacità di riconoscere volti in pochissimo tempo e molti volti in poco tempo.
 	- **Senza:** bisognerebbe controllare ogni singolo volto e cercare di identificarlo manualmente.
+- **CNN (Convolutional Neural Networks):** estraggono automaticamente features e caratteristiche da immagini o segnali.
 
 ___
 
