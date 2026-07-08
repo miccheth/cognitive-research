@@ -12,10 +12,13 @@ L'equilibrio dinamico tra eccitazione e inibizione evita l'attivazione a cascata
 # Cluster come Attrattore:
 - Un cluster è un **attrattore energetico stabile** nello spazio degli stati del sistema.
 - La stabilità deriva dall'equilibrio tra forze eccitatorie e inibitorie. Senza questo bilanciamento, il sistema non converge: oscilla o si sovraccarica senza raggiungere una computazione stabile (simile all'**Halting Problem**).
-# Schema-Memoria:
+# Schema-Contesto:
 - Le attivazioni successive (non hanno un termine) sono influenzate da due fattori:
   - **Schema:** la struttura della rete, modellata dall'ambiente nel tempo.
   - **Contesto attivo:** quali cluster sono attivi in quel momento.
 - Schema e memoria sono fusi e operano in tempo reale: ogni nuova attivazione è modulata/deformata da questa integrazione dinamica.
+- Il sistema è **generativo**: usa lo schema per produrre output (frasi, pensieri, azioni) in modo coerente allo Schema/Contesto.
+	- **Esempio:**
+		- Il cervello umano ha circa 8.6×10^10 neuroni e 10^15 connessioni: ogni azione, pensiero o stato mentale corrisponde a uno specifico pattern di attivazione. Il flusso del pensiero segue una **logica soggettiva** emergente dalla integrazione dinamica di Schema-Contesto
 
 ___

@@ -8,6 +8,9 @@ ___
 - **Face recognition:** amplifica la capacità di riconoscere volti in pochissimo tempo e molti volti in poco tempo.
 	- **Senza:** bisognerebbe controllare ogni singolo volto e cercare di identificarlo manualmente.
 - **CNN (Convolutional Neural Networks):** estraggono automaticamente features e caratteristiche da immagini o segnali.
+- **Azioni Automatiche:** pattern comportamentali e cognitivi che diventano automatici con la pratica, bypassando il ragionamento conscio. Una volta appresi, vengono eseguiti in modo ottimizzato senza carico attentivo.
+	- **Esempi:** guidare, digitare sulla tastiera, camminare, riconoscere parole familiari.
+	- **Senza:** ogni micro-azione richiederebbe attenzione conscia, saturando rapidamente le risorse cognitive.
 
 ___
 
