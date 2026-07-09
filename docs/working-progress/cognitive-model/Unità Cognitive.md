@@ -20,5 +20,6 @@ L'equilibrio dinamico tra eccitazione e inibizione evita l'attivazione a cascata
 - Il sistema è **generativo**: usa lo schema per produrre output (frasi, pensieri, azioni) in modo coerente allo Schema/Contesto.
 	- **Esempio:**
 		- Il cervello umano ha circa 8.6×10^10 neuroni e 10^15 connessioni: ogni azione, pensiero o stato mentale corrisponde a uno specifico pattern di attivazione. Il flusso del pensiero segue una **logica soggettiva** emergente dalla integrazione dinamica di Schema-Contesto
+		- **I sogni come prova:** I sogni dimostrano che gli schemi neurali, raffinati dall'ambiente, hanno impresso la logica del mondo reale nella struttura elettrica del cervello. Nei sogni non compaiono forme astratte senza significato, ma si riproducono scenari che seguono le regole logiche del mondo reale.
 
 ___

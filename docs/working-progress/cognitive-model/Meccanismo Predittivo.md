@@ -24,6 +24,8 @@ Operando all'interno di questa struttura, il sistema vive immerso in un ambiente
 
 Quando il sistema compie un'azione non ottimale e riceve un feedback inatteso, **l'errore di previsione rompe l'equilibrio**, modificando la traiettoria del sistema. È precisamente questa rottura a innescare l'**apprendimento per esperienza o statistico**: l'errore costringe lo spazio latente a ricalibrarsi per aggiornare il modello del mondo.
 
+**Nota:** La previsione è sempre asincrona rispetto a ciò che sta accadendo. Il cervello continua a predire, ma appena riceve un feedback contrastante la previsione viene rotta istantaneamente.
+
 A questo meccanismo si lega strettamente la variabile di **Incertezza**: un indicatore dinamico che esprime quanto il modello predittivo sia insicuro delle proprie stime. Quando questa variabile si alza a causa di feedback imprevisti, la traiettoria del sistema perde stabilità, smette di essere lineare e richiede maggiore computazione per ritrovare l'equilibrio.
 
 ___
