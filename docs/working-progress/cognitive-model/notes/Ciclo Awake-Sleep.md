@@ -15,7 +15,7 @@ Il modello implementa una fase di scaricamento e ottimizzazione basata sul _Syna
 
 ## Fase di Veglia (Tagging & LTP)
 
-Durante l'interazione con l'ambiente, l'attenzione evoca un Potenziamento a Lungo Termine (LTP) locale. Questo processo applica un **"Tag" (marcatore bio-computazionale)** sui collegamenti ritenuti salienti o associati a un successo.
+Durante l'interazione con l'ambiente, l'attenzione evoca un Potenziamento a Lungo Termine (LTP) locale, creando nuovi collegamenti e modificando la struttura. Questo processo applica un **"Tag" (marcatore bio-computazionale)** sui collegamenti ritenuti salienti o associati a un successo.
 
 ## Fase di Sonno (Potatura e Consolidamento)
 

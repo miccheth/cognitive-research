@@ -2,6 +2,7 @@
 ___
 # Descrizione:
 - Abilità che usano funzioni ottimizzate per accelerare le fasi di percezione ed elaborazione che, se passassero nel normale flusso di ragionamento, rallenterebbero troppo il sistema nelle attività in cui non è necessario.
+- Nel Modello, un Acceleratore Cognitivo è proprio la parte deterministica: una volta estratto e le ha capite (il modello previsionale da conferma), si trasforma in parte deterministica, usata per bypassare la lentezza del ciclo non deterministico.
 # Esempi
 - **Google Maps:** amplifica la capacità di navigazione con orari, percorsi e traffico in tempo reale. 
 	- **Senza:** bisognerebbe andare fisicamente alla fermata, consultare orari cartacei e stimare il percorso a memoria.

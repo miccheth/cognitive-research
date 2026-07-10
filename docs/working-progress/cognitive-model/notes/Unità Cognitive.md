@@ -22,4 +22,10 @@ L'equilibrio dinamico tra eccitazione e inibizione evita l'attivazione a cascata
 		- Il cervello umano ha circa 8.6×10^10 neuroni e 10^15 connessioni: ogni azione, pensiero o stato mentale corrisponde a uno specifico pattern di attivazione. Il flusso del pensiero segue una **logica soggettiva** emergente dalla integrazione dinamica di Schema-Contesto
 		- **I sogni come prova:** I sogni dimostrano che gli schemi neurali, raffinati dall'ambiente, hanno impresso la logica del mondo reale nella struttura elettrica del cervello. Nei sogni non compaiono forme astratte senza significato, ma si riproducono scenari che seguono le regole logiche del mondo reale.
 
+# Cicli e Segnali di Stop (Loop Percettivo-Motori)
+
+Un'azione o pensiero non è un comando singolo, ma un **generatore di pattern centrale** (un ciclo continuo: _passo-passo-passo_). Il sistema esegue il ciclo in autonomia finché non arriva un input inibitorio (_"Sono arrivato"_ oppure _"muscoli saturi"_).
+
+**Hebbian Learning:** Quando un nuovo gruppo di neuroni si attiva massicciamente, la sua sincronizzazione "vince" per inibizione laterale sulle reti precedenti, interrompendo il vecchio ciclo e avviandone uno nuovo.
+
 ___

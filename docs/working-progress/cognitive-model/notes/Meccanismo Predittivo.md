@@ -28,6 +28,16 @@ Quando il sistema compie un'azione non ottimale e riceve un feedback inatteso, *
 
 A questo meccanismo si lega strettamente la variabile di **Incertezza**: un indicatore dinamico che esprime quanto il modello predittivo sia insicuro delle proprie stime. Quando questa variabile si alza a causa di feedback imprevisti, la traiettoria del sistema perde stabilità, smette di essere lineare e richiede maggiore computazione per ritrovare l'equilibrio.
 
+## Prediction Error e Precisione (Architettura a Due Stream)
+
+Il sistema implementa due flussi paralleli:
+
+- **First-order (contenuto):** Le aspettative scendono (top-down) creando bacini di attrazione; l'input sensoriale sale (bottom-up) spingendo verso direzioni inaspettate. Il prediction error è la distanza geometrica tra questi due vettori.
+
+- **Second-order (precisione):** Un segnale parallelo codifica l'incertezza di ogni predizione e modula quanto peso dare al prediction error. Quando la precisione è bassa, il sistema frena l'aggiornamento del modello.
+
+Ogni convergenza su un attrattore "affina" le predizioni future — lo spazio si scolpisce per minimizzare il futuro prediction error. (Simile al predictive processing)
+
 ___
 # Gradiente di Certezza e Percezione della Risposta
 
