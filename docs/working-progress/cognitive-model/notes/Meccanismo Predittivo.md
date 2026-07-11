@@ -26,6 +26,9 @@ Quando il sistema compie un'azione non ottimale e riceve un feedback inatteso, *
 
 **Nota:** La previsione è sempre asincrona rispetto a ciò che sta accadendo. Il cervello continua a predire, ma appena riceve un feedback contrastante la previsione viene rotta istantaneamente.
 
+**Esempio di Adattamento Sensoriale (Abituazione):**
+Quando senti un odore nuovo, il prediction error è alto (novità → il sistema non se l'aspettava). Dopo un po' che sei esposto a quell'odore, il cervello ha imparato a prevederlo: la previsione top-down corrisponde esattamente all'input bottom-up. Il prediction error scende a zero. Risultato: **non percepisci più l'odore**. Il sistema ha abbassato la previsione a quel segnale costante e rimane stabile con poca energia. Lo stesso meccanismo spiega perché non senti i vestiti sulla pelle, il rumore costante dell'aria condizionata, o perché il naso "scompare" dal campo visivo.
+
 A questo meccanismo si lega strettamente la variabile di **Incertezza**: un indicatore dinamico che esprime quanto il modello predittivo sia insicuro delle proprie stime. Quando questa variabile si alza a causa di feedback imprevisti, la traiettoria del sistema perde stabilità, smette di essere lineare e richiede maggiore computazione per ritrovare l'equilibrio.
 
 ## Prediction Error e Precisione (Architettura a Due Stream)

@@ -1,7 +1,7 @@
 
 ___
 # Descrizione:
-- L'interfaccia tra l'ambiente esterno e il modello avviene tramite una codifica deterministica dei segnali nella fase non deterministica del modello.
+- L'interfaccia tra l'ambiente esterno e il modello avviene tramite una codifica deterministica dei segnali nella fase non deterministica del modello. (Tipo come i Continuous Item Memory)
 
 - **Spazio Multimodale Unificato:** Tutti i canali sensoriali (vista, udito, tatto, linguaggio) convergono in un unico spazio comune. Una volta codificati, i dati provenienti da modalità diverse "parlano la stessa lingua" e possono interagire tra loro nello stesso spazio latente.
 

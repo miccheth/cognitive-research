@@ -42,7 +42,7 @@ Meccanismo di scansione top-down e bottom-up per risparmiare risorse:
 
 - **Geometria come Scorciatoia:** Il sistema non esegue calcoli algoritmici passo-passo.
     
-- **Uso Passivo della Conoscenza:** La struttura geometrica della rete – plasmata dall'esperienza precedente (es usare tutte l'esperienza di Internet) – guida istantaneamente il vettore verso la risposta. La conoscenza immagazzinata agisce come un campo di forza: il vettore si muove perché "attratto" dalla topologia del sistema. La generalizzazione è una proprietà intrinseca dello spazio geometrico, non un calcolo. Funziona anche con input mai visti. Simile ai Modelli Kanerva.
+- **Uso Passivo della Conoscenza:** La struttura geometrica della rete – plasmata dall'esperienza precedente (es usare tutte l'esperienza di Internet) – guida istantaneamente il vettore verso la risposta. La conoscenza immagazzinata agisce come un campo di forza: il vettore si muove perché "attratto" dalla topologia del sistema. La generalizzazione è una proprietà intrinseca dello spazio geometrico, non un calcolo. Funziona anche con input mai visti, portando a costruire il risultati più tendente, in base a quello che conosce. Simile ai Modelli Kanerva.
 
 ___
 # Parte deterministica:
