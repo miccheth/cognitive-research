@@ -69,7 +69,27 @@ L'idea formalizzata entra nel tritacarne dei **Doppi Ruoli**:
 3. **Valutazione di senso:** L'utente analizza l'output. L'idea ha ancora senso? Se i problemi emersi non sono gestibili o l'idea crolla, si reitera modificando la formalizzazione. Se l'idea regge, si passa oltre.
     
 
+### Fase 3.5: TEST DEI BIAS COGNITIVI
+
+Prima di consolidare le soluzioni, verificare che l'architettura logica non sia contaminata da distorsioni cognitive sistematiche.
+
+- **Obiettivo:** Identificare e neutralizzare i bias che potrebbero compromettere la validità dell'idea.
+    
+- **Prompt chiave per l'LLM Logica:**
+    
+    > _"Analizza questo testo e identifica quali dei seguenti bias cognitivi potrebbero essere presenti: confirmation bias, anchoring bias, availability heuristic, overconfidence bias, survivorship bias. Per ciascuno, indica il punto esatto del testo dove emerge."_
+    
+- **Prompt chiave per l'LLM Creativa:**
+    
+    > _"Genera 3 scenari in cui un decisore razionale arriverebbe a conclusioni opposte a quelle presenti in questo testo. Quale bias potrebbe spiegare la divergenza?"_
+    
+- **Criterio di superamento:** Se vengono identificati bias non gestiti, si torna alla Fase 2 (FORMALIZZAZIONE) per ripulire l'idea dalle assunzioni distorte.
+    
+- **Flusso:** L'LLM Logica esegue la mappatura sistematica. L'LLM Creativa esegue lo stress-test divergente. L'utente valuta se i bias identificati inficiano la validità dell'idea.
+
 ### Fase 4: CONSOLIDAMENTO (Sampling Multiplo & Verifica)
+
+**Prerequisito:** L'idea ha superato il Test dei BIAS Cognitivi.
 
 Fase dedicata alla risoluzione delle falle emerse dall'Attacco. Invece di generare una singola risposta lineare, si sfrutta la solidità statistica del campionamento parallelo:
 

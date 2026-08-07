@@ -46,7 +46,7 @@ ___
 
 Il sistema percepisce il proprio stato di incertezza come un **gradiente dinamico** nello spazio latente:
 
-- **Incertezza alta**: nessun attrattore domina, percezione di indecisione
+- **Incertezza alta**: nessun attrattore domina, percezione di indecisione. Questo può essere la paura.
 - **Incertezza in diminuzione**: un cluster si sta stabilizzando, percezione di "avvicinamento"
 - **Certezza**: l'attrattore è stabile.
 

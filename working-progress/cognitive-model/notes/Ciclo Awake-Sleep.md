@@ -6,7 +6,7 @@ Il sistema opera in due fasi cicliche complementari:
 - **Fase di Veglia (Awake):** Accumula dati dall'ambiente esterno
 - **Fase di Sonno (Sleep):** Si isola dagli input esterni e compie ottimizzazioni interne
 
-Durante la fase di sonno avviene un **pruning massiccio**: ciò che è forte e sensato sopravvive, il resto viene eliminato. Il ciclo migliora iterativamente le prestazioni del ciclo successivo.
+Durante la fase di sonno avviene un **pruning massiccio**: ciò che è forte e sensato sopravvive, il resto viene eliminato. Il ciclo migliora iterativamente le prestazioni del ciclo successivo (Tipo Epoch).
 
 ___
 # Meccanismo: Synaptic Tagging e Potatura Selettiva

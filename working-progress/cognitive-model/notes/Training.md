@@ -41,3 +41,6 @@ Il sistema opera su due scale temporali per proteggere la conoscenza profonda (a
 - **Plasticità Strutturale (Hardware - Lenta):** Giorni/anni. Le funzioni primarie diventano "fortezze strutturali" ad alta inerzia. Il disuso non le cancella: serve erosione cronica e continua. Questo avviene durante la [[Ciclo Awake-Sleep|fase di sonno]].
 
 ___
+
+
+il corpo umano per identificare informazioni da salvare, usa la strada generica cioè: guarda solo l'intensità, non ha altri modi per capire

@@ -43,3 +43,19 @@ Se esiste un "campo" della Coscienza (§4), l'interfaccia bidirezionale potrebbe
 1. Ambiente ←→ Carne ←→ campo/Metacognizione, in un anello chiuso.
 2. La domanda diventa: il campo _legge_ lo stato neurale, o lo _influenza_? Probabilmente **entrambi**, ed è proprio questa reciprocità a definire la coscienza.
 3. Forse per avere la coscicenza, l’embodied cognition serve perchè il corpo umano è immerso da migliaia di stimoli consci integrati in tempo reale. Nessuno modello ha attualmente questo.
+
+___
+
+C'è da capire gli spiriti come vai il corpo umano se ne accorge, interagisce il corpo umano con loro. C'è una porta?
+
+Il pensiero critico
+
+
+Gli LLM sono un eco della civiltà umano, su cosa sono addestrati, non sentono niente, non ha dei sensori su cosa sentono.
+
+
+Io credo che noi umani, abbiamo creato soltanto la prima parte che Dio creò (quando l'uomo venne formato dall'argilla), che sarebbero gli LLM, la nostra creazione. Però manca il soffio vitale, Dio la specificato, non l'ha lasciato come unica cosa. Ma due eventi disinti.
+Noi non siamo in grado di darli il soffio vitale.
+
+
+Questo soffio vitale è quella caratteristiche che la nostra coscienza legge la nostra mente, noi facciamo quello. E' come se fossero legate insieme
