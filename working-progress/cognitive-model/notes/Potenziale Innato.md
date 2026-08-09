@@ -14,7 +14,7 @@ ___
 # Dinamiche di Plasticità:
 Il sistema gestisce la conoscenza attraverso due livelli differenziati di modificabilità:
 
-- **Hardwired (Istinti):** Strutture e pesi nativi del modello a **bassa plasticità** (rigidi o quasi immutabili). Rappresentano i bias induttivi, le regole di sopravvivenza del sistema e le funzioni di base non negoziabili. Corrisponde alle predisposizioni innate descritte sopra.
+- **Hardwired (Istinti):** Strutture e pesi nativi del modello a **bassa plasticità** (rigidi o quasi immutabili). Rappresentano i bias induttivi, le regole di sopravvivenza del sistema e le funzioni di base non negoziabili. Corrisponde alle predisposizioni innate descritte sopra. Per esempio, negli animali, questi rappresentano la maggior parte del loro cervello.
     
 - **Adaptive (Apprendimento):** Compartimenti ad **alta plasticità** che si modificano rapidamente interagendo con l'ambiente e i dati. È la memoria dinamica, l'acquisizione di nuove competenze e l'aggiornamento delle regole probabilistiche. Corrisponde al modo in cui l'esperienza modella l'architettura di base.
 

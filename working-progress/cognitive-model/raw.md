@@ -18,8 +18,9 @@
 17. https://www.reddit.com/r/consciousness/s/nADuchDP4V
 18. https://www.reddit.com/r/EverythingScience/comments/1urv4gm/how_working_memory_could_give_rise_to/?share_id=3FJT5bPv7yyOmFXTc31PS&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=3
 19. https://www.reddit.com/r/holofractal/comments/1ibztb9/consciousness_is_fundamental/?share_id=XXOQFDxG0aul7R2Qe9uDx&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=3
-20. Forse il **Grafo Aciclico Diretto** è più coerente per la conoscenza invece dell'ipergrafo. Nell'essere umano non esistono problemi tipo Loop infinito? Il ragionamento umano cosa userebbe?
-21. Un grafo o ipergrafi p grafp aciclcio diretto chi rende la conoscenza espressivamente completa?
-22. Il sistema inizialmente assorbe molta conoscenza è una spugna, poi pruna. Come fa il cervello. Da capire perchè il cervello fa così
-23. Gli animali sono molto bravi, per via che hanno un sistema generico unità e non fisse con simboli.
-24. Il pensiero esplora lo spazio combinatorio ?
+20. Il sistema inizialmente assorbe molta conoscenza è una spugna, poi pruna. Come fa il cervello. Da capire perchè il cervello fa così
+21. Gli animali sono molto bravi, per via che hanno un sistema generico unità e non fisse con simboli.
+22. Il pensiero esplora lo spazio combinatorio ?
+23. Come il cervello riconosce una cosa è uguale, è non supervisionato. Più diventa intelligente piu è in grado di fare da sole queste cose
+24. Altro esempio perchè certe cose rimangono in memoria nel cervello umano, è che c'è ancora energia, quindi, come dico anche qui, la computazione ambienta da energia a riaccende quel pensiero di giorni, e il pensiero umano fa il resto facendo da cono di luce.
+25. Il mio sistema supporta nativamente: contesto; attenzione; esperienza; euristiche; conoscenza implicita.
