@@ -1,42 +1,4 @@
 
-
-## 1. Flusso Completo: Da Input a Insight
-
-**Scenario:** Uno studente sta studiando la relazione tra sonno e consolidamento della memoria.
-
-```
-FASE 1 - Ingestion Layer
-├─ Importa: 3 paper scientifici (PDF)
-├─ Importa: Appunti personali (.thinking)
-└─ Importa: Video-lezione (trascrizione)
-
-FASE 2 - Grounding Layer
-├─ "Sonno REM" + "REM sleep" + "Schlafphase REM" → REM_SLEEP [ID: SL_001]
-├─ "Memoria dichiarativa" + "Memoria esplicita" → DECLARATIVE_MEMORY [ID: MEM_003]
-└─ Risoluzione sinonimi e ancore univoche
-
-FASE 3 - Compilation Layer
-├─ Costruzione metagrafo:
-│   (REM_SLEEP ──Consolida──> DECLARATIVE_MEMORY)
-│   (REM_SLEEP ──Aumenta──> BDNF)
-│   (BDNF ──Facilita──> NEUROPLASTICITÀ)
-│   (Privazione_Sonno ──Riduce──> REM_SLEEP)
-└─ Indicizzazione Type per query future
-
-FASE 4 - Query
-QUERY: "Perché dopo una notte insonne faccio fatica a ricordare?"
-FOCUS: Privazione_Sonno
-HOP_MAX: 4
-VINCOLI: Includi solo pathway fisiologici
-
-FASE 5 - Generation Layer
-OUTPUT LLM:
-"La privazione del sonno riduce la fase REM, che è cruciale 
-per il consolidamento della memoria dichiarativa tramite il BDNF. 
-Senza REM, la neuroplasticità si riduce, compromettendo il ricordo."
-```
-
-
 ## 2. Annidamento Ricorsivo e Metaprogrammazione
 
 ```
@@ -64,29 +26,6 @@ QUERY: "Mostra evidenze sul circuito dopaminergico"
 → Il sistema traversa i livelli e restituisce il pathway completo 
   con le fonti collegate a ogni livello.
 ```
-
-
-## 3. Energia e Hop Limitati
-
-Il meccanismo di energia previene l'esplosione combinatoria limitando l'esplorazione del grafo.
-
-```
-FOCUS INIZIALE: Caffeina (energia = 100%)
-
-HOP 1 (energia ~80%):
-  → Adrenalina, Cortisolo, Recettori_A2A
-
-HOP 2 (energia ~60%):
-  → Sistema_simpatico, Vasocostrizione, Veglia
-
-HOP 3 (energia ~40%):
-  → Performance_cognitiva, Ansia, Battito_cardiaco
-
-HOP 4 (energia ~20%):
-  → (stop raggiunto - HOP_MAX = 4)
-```
-
-**Risultato:** L'utente vede solo il sottografo rilevante, non l'intero Omnispace (che potrebbe avere milioni di atomi).
 
 
 ## 4. Collaborazione e Dataset Condivisi
@@ -147,45 +86,6 @@ L'utente può definire logica personalizzata eseguibili nel metagrafo:
 QUERY: "Applica protocollo-recupero a Mario"
 → Esegue la logica definita dall'utente sui dati di Mario
 → OUTPUT: allenamento-leggero (soreness = 7)
-```
-
-
-## 7. Grounding Multilingua con ID Univoci
-
-```
-INPUT DA FONTI ETEROGENEE:
-
-  File 1 (Italiano):
-    "La caffeina blocca i recettori dell'adenosina"
-    → Estrazione: [Caffeina], [Blocca], [Recettori_adenosina]
-
-  File 2 (Inglese):
-    "Caffeine inhibits adenosine receptors"
-    → Estrazione: [Caffeine], [Inhibits], [Adenosine_receptors]
-
-  File 3 (Tedesco):
-    "Koffein blockiert Adenosinrezeptoren"
-    → Estrazione: [Koffein], [Blockiert], [Adenosinrezeptoren]
-
-GROUNDING LAYER:
-
-  Mappatura lessicale → ID univoci:
-  
-  [Caffeina] + [Caffeine] + [Koffein] 
-    → CAFFEINE [ID: CHEBI_27732]
-  
-  [Blocca] + [Inhibits] + [Blockiert]
-    → INHIBITS [ID: RO_0002449]
-  
-  [Recettori_adenosina] + [Adenosine_receptors] + [Adenosinrezeptoren]
-    → ADENOSINE_RECEPTOR [ID: CHEBI_27732]
-
-METAGRAFO COMPILATO (unificato):
-  (CAFFEINE ──INHIBITS──> ADENOSINE_RECEPTOR)
-
-VANTAGGIO:
-  Query in qualsiasi lingua restituiscono lo stesso risultato.
-  Nuovi documenti in altre lingue si ancorano automaticamente agli stessi ID.
 ```
 
 
@@ -300,77 +200,6 @@ OUTPUT:
   - Applicare il proprio criterio di verità
 ```
 
-## 12. Metaprogrammazione e Turing-Completezza
-
-```
-DEFINIZIONE DI REGOLA PERSONALIZZATA:
-
-  ;; Definizione di un attrattore dinamico
-  (define (crea-attrattore contesto peso)
-    (lambda (nodo)
-      (if (match-contesto? nodo contesto)
-          (* peso (rilevanza-base nodo))
-          (rilevanza-base nodo))))
-
-  ;; Regola di inferenza non-monotonica
-  (define (revisore-credibilità ipotesi nuove-evidenze)
-    (let ((supporto (conta-supporto ipotesi nuove-evidenze))
-          (confutazioni (conta-confutazioni ipotesi nuove-evidenze)))
-      (if (> confutazioni supporto)
-          (aggiorna-statuto ipotesi 'ritrattato)
-          (aggiorna-statuto ipotesi 'confermato))))
-
-  ;; Criterio personale di verità (Baricentro di massa)
-  (define (baricentro-verità evidenze)
-    (/ (sum (map peso-evidenza evidenze))
-       (length evidenze)))
-
-ESECUZIONE NEL METAGRAFO:
-
-  QUERY: "Applica baricentro-verità a [Effetto_caffeina_sulla_memoria]"
-  
-  INPUT:
-    Evidenza_A: (supporto: 0.8, peso: 0.9)
-    Evidenza_B: (supporto: 0.6, peso: 0.7)
-    Contestazione_C: (supporto: 0.3, peso: 0.5)
-
-  OUTPUT:
-    Baricentro: 0.73
-    Statuto: (Probabilmente_vero)
-```
-
-
-## 13. Cono di Luce Focalizzato
-
-```
-SCENARIO: Navigazione in un metagrafo con 100.000+ atomi
-
-SENZA CONTESTO:
-  L'energia si disperde uniformemente → esplosione combinatoria
-  Hop 1: 5 nodi
-  Hop 2: 25 nodi
-  Hop 3: 125 nodi
-  Hop 4: 625 nodi (ingestibile)
-
-CON CONTESTO ATTIVO:
-  Il contesto agisce come un "cono di luce" che illumina solo i rami rilevanti:
-  
-  FOCUS: [Apprendimento_motorio]
-  CONTESTO: [Consolidamento, Sonno, Pratica_deliberata]
-  
-  Hop 1: 3 nodi (solo quelli nel cono)
-  Hop 2: 7 nodi (ramificazioni pertinenti)
-  Hop 3: 12 nodi (approfondimenti mirati)
-  Hop 4: 8 nodi (convergenza su pattern chiave)
-  
-  TOTALE: 30 nodi esplorati vs 625 potenziali
-  
-RISULTATO:
-  L'utente vede solo le connessioni significative per il task corrente,
-  senza essere sovraccaricato da informazioni irrilevanti.
-
-
-```
 
 ## 14. Sintesi Multi-Dominio con Visione d'Insieme
 
