@@ -1,32 +1,4 @@
 
-## 2. Annidamento Ricorsivo e Metaprogrammazione
-
-```
-LIVELLO 0 - Atomi Base:
-  [Dopamina], [Ricompensa], [Apprendimento]
-
-LIVELLO 1 - Atomi Composti:
-  Processo_A: (Dopamina ──Attiva──> Ricompensa)
-  Processo_B: (Ricompensa ──Rinforza──> Apprendimento)
-
-LIVELLO 2 - Meta-Atomi:
-  Circuito_X: ([Processo_A] ──Coordina──> [Processo_B])
-
-LIVELLO 3 - Evidenza:
-  Paper_2024: (Studio_Y ──Conferma──> [Circuito_X])
-
-LIVELLO 4 - Contesto Utente:
-  Nota_Utente: (Osservo──> [Circuito_X] nel_mio_caso)
-```
-
-**Query su questo annidamento:**
-
-```
-QUERY: "Mostra evidenze sul circuito dopaminergico"
-→ Il sistema traversa i livelli e restituisce il pathway completo 
-  con le fonti collegate a ogni livello.
-```
-
 
 ## 4. Collaborazione e Dataset Condivisi
 
@@ -65,27 +37,6 @@ DEFEASIBLE/NON-MONOTONICA:
 ABDUZIONE:
   (Osservo: impronte a 3 dita)
   → Ipotesi migliore: (Uccello è_passato_di_qui)
-```
-
-
-## 6. Estensibilità Turing-Completa
-
-L'utente può definire logica personalizzata eseguibili nel metagrafo:
-
-```lisp
-(define (protocollo-recupero? atleta)
-  (if (and (> giorni_sonno 3)
-           (< soreness 5))
-      (allenamento-pesante)
-      (allenamento-leggero)))
-```
-
-**Query di esecuzione:**
-
-```
-QUERY: "Applica protocollo-recupero a Mario"
-→ Esegue la logica definita dall'utente sui dati di Mario
-→ OUTPUT: allenamento-leggero (soreness = 7)
 ```
 
 
