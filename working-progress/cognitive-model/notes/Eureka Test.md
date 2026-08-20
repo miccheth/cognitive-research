@@ -16,5 +16,6 @@ ___
 - Bisogna vedere se il modello ha comportamenti simili agli umani, nel modo di pensare, immaginare ecc.
 - Sarebbe interessante se il modello nell'imparare una lingua, notiamo che sviluppa una lingua madre e cerca di tradurre la lingua nuova. Comportamento simile agli umani.
 - Tutti questi Test, presumo non siano funzioni presenti nativamente. Ma è l'eco dell'architettura radice che spontaneamente fa verificare queste cose.
+- Guardando un simbolo, come un cartello stradale, se il sistema è proiettato in una strada, dovremmo vedere nativamente generarsi pensieri su cosa fare. O viene generato il signifcato di quel simbolo, che dipende se lo ha imparato.
 
 ___

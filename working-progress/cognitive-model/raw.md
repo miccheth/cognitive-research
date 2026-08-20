@@ -24,3 +24,5 @@
 23. Come il cervello riconosce una cosa è uguale, è non supervisionato. Più diventa intelligente piu è in grado di fare da sole queste cose
 24. Altro esempio perchè certe cose rimangono in memoria nel cervello umano, è che c'è ancora energia, quindi, come dico anche qui, la computazione ambienta da energia a riaccende quel pensiero di giorni, e il pensiero umano fa il resto facendo da cono di luce.
 25. Il mio sistema supporta nativamente: contesto; attenzione; esperienza; euristiche; conoscenza implicita.
+26. nello schema contesto si sviluppa un impronta che da lì genera le nuove cose con la computazione ambientale
+27. La memoria e la rete neurale è potenzialmente infinita perchè si adatta in base all'esperienza e dove teniamo il focus.
