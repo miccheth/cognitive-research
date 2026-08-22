@@ -7,7 +7,7 @@ ___
 - Oppure forse è sbagliata la teoria, perchè alla coscienza arrivano tantissime informazione filtrate (Quindi di logica, integra poche informazioni).
 
 # Esempi:
-- **Guida:** il cervello integra continuamente stimoli diversi — le strisce pedonali, i pedoni, l'essere seduti nell'auto, il volante tra le mani. Queste informazioni sono computate fuori, nell'ambiente.
+- **Guida:** il cervello integra continuamente stimoli diversi — le strisce pedonali, i pedoni, l'essere seduti nell'auto, il volante tra le mani. Queste informazioni sono computate fuori, nell'ambiente. (Cioè l'esterno fa generare questi pensieri)
 - **Riconoscimento del luogo:** vedere una strada e riconoscere gradualmente dove ci si trova ("sono a Modena") avviene automaticamente, senza pensiero conscio. L'ambiente ha già computato l'informazione.
 
 ___

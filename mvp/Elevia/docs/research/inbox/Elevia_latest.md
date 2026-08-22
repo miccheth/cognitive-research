@@ -7,264 +7,6 @@
 ***Nota:** sto valutando se trasformarlo in un paper collaborativo. Servirà una struttura decisionale (es. ad albero) e tool gestionali per organizzare i contributi senza disperdere le idee migliori.*
 
 
-# 1. Manifesto
-___
-## 1.1 Il Motivo
-
-Nel lavoro intellettuale e nella ricerca l'intralcio principale è sempre lo stesso: **la mancanza di una visione d'insieme** che fa accorgersi troppo tardi di una connessione decisiva o di un metodo migliore.
-
-Non è una colpa individuale, ma un vincolo biologico: la memoria di lavoro può gestire solo pochi elementi alla volta e, quando il cervello è costretto a trattenere a fatica troppi dettagli, **perde di vista il quadro generale**, mentre una parte consistente delle risorse cognitive viene assorbita dal semplice mantenimento delle informazioni.
-
-Viviamo in un’epoca caratterizzata da ritmi sempre più veloci e da un flusso continuo di informazioni, ma il cervello umano non è strutturato per gestire senza limiti una mole così elevata di dati.
-
-Lo scopo di questo progetto non è rendere gli umani pigri o dipendenti dalla tecnologia, ma **liberare risorse mentali per ridare energia a quelle funzioni cognitive superiori che ci hanno permesso di costruire la nostra civiltà**. L'uomo ha sempre progredito attraverso strumenti capaci di amplificare le proprie capacità: la scrittura ha esteso la memoria, il calcolo ha esteso la capacità di elaborazione, gli strumenti scientifici hanno esteso i sensi. Non serve quindi un semplice archivio, ma un'architettura di supporto che si adatti al flusso di ragionamento umano per **potenziarlo, anziché sostituirlo**.
-
-## 1.2 Visione
-
-L'evoluzione umana si basa sulla capacità di **modellare la realtà in modo astratto simbolico** e ricavare nuove opzioni dalle informazioni. La nostra storia è anche una storia di strumenti che hanno progressivamente esteso ciò che la mente e il corpo potevano fare; oggi, però, la quantità di dati disponibili supera i limiti biologici di memoria e attenzione: occorre uno strumento che **estenda la portata della mente senza sostituirla**.
-
-Rappresentando la conoscenza come una rete, la mente riesce a esplorarne solo pochi nodi per volta. Rendere visibili le connessioni latenti significa offrire una mappa completa per riconoscere pattern, testare ipotesi e governare sistemi complessi senza disperdere la concentrazione. **Come ogni grande strumento della storia umana, il suo ruolo non è pensare al posto dell'uomo, ma permettergli di pensare oltre i propri limiti biologici.**
-
-## 1.3 I principi
-
-1. **Amplificare, non sostituire:** la tecnologia deve farsi carico del lavoro mnemonico e meccanico per liberare la mente umana, non per sollevarla dal compito di pensare. Deve lasciare alle persone il controllo, l’intuizione, il pensiero critico e la capacità di avere una visione d’insieme. Dobbiamo usare la tecnologia per diventare più capaci, **non per disimparare a pensare e diventare cognitivamente dipendenti da essa**. **Human in the Loop, sempre.**
-
-2. **Architettura esplorabile:** i dati non vengono solo conservati, ma organizzati per essere navigati e messi in relazione.
-
-3. **Aderenza ai processi mentali:** lo strumento si adatta alla logica dell'utente, riducendo la frizione tra il pensiero e la sua esecuzione.
-
-4. **Precisione contestuale:** il sistema deve interpretare il significato reale delle informazioni, gestendo la complessità e il contesto del linguaggio senza appiattirli.
-
-## 1.4 Divisione dei Ruoli
-
-| La macchina si occupa di        | L'essere umano decide                 |
-| ------------------------------- | ------------------------------------- |
-| Ricordare                       | Cosa è importante                     |
-| Indicizzare                     | Cosa è vero                           |
-| Collegare                       | Quale ipotesi vale la pena perseguire |
-| Cercare                         | Quale connessione è significativa     |
-| Raggruppare                     | Quale interpretazione adottare        |
-| Evidenziare                     | Cosa fare                             |
-| Recuperare contesti             | —                                     |
-| Mostrare connessioni            | —                                     |
-| Individuare possibili relazioni | —                                     |
-
-## 1.5 Roadmap
-
-1. **Rappresentazione Universale:** normalizzare qualsiasi input umano (paper, commento Reddit, dataset) in Space. Quindi aver risolto il problema delle infinite sfumature del linguaggio umano, unificandolo con i simboli rigidi. Se due fonti condividono semantica, emergono vicine. (es. come vedremmo un commento Reddit e un paper scientifico, pertinenti dello stesso argomento)
-
-2. **Estrazione Regole:** dall'esplorazione delle connessioni, cristallizzare nuove regole logiche (es. se impara che l'acqua bolle a 100°C e diventa ghiaccio a 0°C, si genera una regola). Definizione: manuale (utente) o automatica (sistema propone).
-
-___
-
-
-# 2. Il Grande Dilemma
-___
-## 2.1 Il problema: precisione contro continuità
-
-Come costruire una memoria computazionale che sia sufficientemente **precisa e strutturata** da funzionare come un sistema simbolico, ma anche capace di rappresentare la **continuità, la vaghezza e le sfumature del linguaggio naturale**?
-
-Un sistema puramente **simbolico** rappresenta molto bene i fatti espliciti:
-
-```text
-Apple Inc.
-    ↓
-è una
-    ↓
-azienda
-```
-
-È efficace per entità, relazioni, gerarchie e vincoli, ma diventa rigido quando deve rappresentare concetti sfumati o connessioni non esplicitamente definite.
-
-Un sistema puramente **vettoriale**, al contrario, rappresenta bene la similarità semantica:
-
-```text
-"Apple sta spostando l'iPhone verso la fascia premium"
-                ↕
-"Le aziende mature cercano segmenti ad alto margine"
-```
-
-Ma la similarità non equivale a una relazione logica:
-
-```text
-A è simile a B
-```
-
-non significa:
-
-```text
-A → è → B
-```
-
-Il problema, quindi, non è scegliere tra i due approcci, ma **farli convivere senza confonderne i ruoli**.
-
-> **Il simbolico garantisce precisione e struttura; il vettoriale garantisce continuità e capacità di scoperta.**
-
-## 2.2 Due livelli di conoscenza
-
-La memoria può essere organizzata su due livelli complementari.
-
-### Livello simbolico
-
-Rappresenta ciò che il sistema considera sufficientemente definito da poter essere espresso esplicitamente:
-
-```text
-Apple Inc. → tipo → Azienda
-Apple Inc. → produce → iPhone
-Steve Jobs → tipo → Persona
-Steve Jobs → ha guidato → Apple Inc.
-```
-
-Questo livello permette: identificazione e disambiguazione delle entità, relazioni e gerarchie, filtri e aggregazioni, interrogazioni precise, vincoli e ragionamento. 
-
-### Livello vettoriale
-
-Rappresenta invece la **posizione semantica** delle informazioni nello spazio concettuale.
-
-Permette di individuare somiglianze e connessioni che non erano state definite esplicitamente.
-
-Una rappresentazione vettoriale, quindi, non afferma necessariamente che due informazioni siano equivalenti o logicamente collegate. Indica soltanto che **potrebbero appartenere allo stesso spazio concettuale**.
-
-## 2.3 L'ancoraggio simbolico
-
-Il punto centrale dell'architettura è che le rappresentazioni vettoriali non devono necessariamente diventare nuove strutture simboliche.
-
-Un'entità o un concetto simbolico può fungere da **punto di ancoraggio comune** per molte rappresentazioni vettoriali.
-
-In questo senso, il simbolo funziona come un baricentro:
-
-```text
-              S1
-              │
-              │
-        S2 ─── ● ─── S3
-              │
-              │
-              S4
-
-              ●
-         Apple Inc.
-```
-
-Le diverse informazioni possono quindi essere semanticamente vicine, pur mantenendo la propria individualità.
-
-Questo consente di conservare la ricchezza semantica senza trasformare ogni sfumatura del linguaggio in una nuova relazione del grafo.
-
-La memoria non deve formalizzare tutto ciò che comprende.
-
-## 2.4 Diversi tipi di conoscenza e certezza
-
-Non tutte le informazioni hanno lo stesso grado di certezza o devono essere rappresentate nello stesso modo.
-
-Per esempio:
-
-```text
-"Apple è un'azienda tecnologica."
-```
-
-può essere rappresentato come un fatto strutturato.
-
-Al contrario:
-
-```text
-"Apple sembra aver perso parte della sua capacità innovativa."
-```
-
-esprime una valutazione, mentre:
-
-```text
-"Questo testo ricorda concettualmente quest'altro."
-```
-
-esprime una relazione di similarità.
-
-Queste tre informazioni non dovrebbero essere forzate nella stessa struttura.
-
-La memoria deve quindi distinguere almeno tra:
-
-- **fatti strutturati**;
-- **valutazioni o affermazioni incerte**;
-- **relazioni semantiche e similarità**.
-
-> **Non serve una rappresentazione universale della conoscenza. Serve una memoria capace di rappresentare diversi tipi di certezza e relazione.**
-
-## 2.5 La granularità della conoscenza
-
-Consideriamo:
-
-> «Negli ultimi anni Apple ha aumentato il prezzo degli iPhone. Alcuni utenti ritengono che l'azienda punti sempre più sul mercato premium e che, rispetto all'epoca di Steve Jobs, abbia perso parte della sua capacità innovativa.»
-
-Il sistema non dovrebbe trasformare l'intero testo in una gigantesca struttura logica.
-
-Può estrarre ciò che è utile rendere esplicito:
-
-```text
-Apple Inc.
-iPhone
-Steve Jobs
-
-Apple Inc. ── produce ──> iPhone
-Steve Jobs ── ha guidato ──> Apple Inc.
-```
-
-La valutazione sulla capacità innovativa, invece, può rimanere nella rappresentazione vettoriale.
-
-Non avrebbe senso trasformare:
-
-> "ha perso parte della sua capacità innovativa"
-
-in decine di nodi e relazioni.
-
-La segmentazione deve seguire la struttura simbolica estratta dal contenuto: a ogni insieme coerente di simboli può corrispondere una rappresentazione vettoriale distinta. Creare un unico vettore per un testo di mille righe comprimerebbe informazioni troppo diverse, facendo perdere granularità e precisione nei collegamenti semantici.
-
-## 2.6 Scoprire connessioni senza trasformarle in fatti
-
-Supponiamo che, mesi dopo, venga inserito:
-
-> «Le aziende tecnologiche mature possono aumentare i margini concentrandosi su prodotti premium, anche quando la crescita delle vendite rallenta.»
-
-Il sistema può rappresentare questo contenuto come un nuovo segmento semantico:
-
-```text
-S4 → vector_087
-```
-
-e rilevare una forte similarità con:
-
-```text
-S2
-"Apple punta sempre più sul mercato premium."
-```
-
-La similarità può quindi produrre:
-
-```text
-S4
- ↓
-potenzialmente correlato a
- ↓
-S2
- ↓
-Apple Inc.
-```
-
-Ma **non deve modificare automaticamente il grafo**.
-
-Non deve creare:
-
-```text
-Apple Inc. ── segue strategia ──> aumentare i margini
-```
-
-perché questa sarebbe un'inferenza ulteriore, non direttamente giustificata dai dati.
-
-Il sistema deve quindi distinguere tra:
-
-> **ciò che sa, ciò che rappresenta come ipotesi e ciò che considera semanticamente correlato.**
-
-___
-
-
 # 3. Space
 ___
 ## 3.1 Introduzione
@@ -304,6 +46,8 @@ Durante questa fase, verranno costruite progressivamente le **associazioni, i pa
 ### Query Engine
 
 È il linguaggio di interfacciamento con Omnispace. A differenza dei linguaggi procedurali tradizionali come SQL, si basa interamente sulla definizione di vincoli di contesto (maschere) per delimitare lo spazio di esplorazione (similmente alle String Regex). Devono essere Espressivamente Completi per poter esplorare qualsiasi cosa. Con la possibilità di generalizzare nuove idee.
+
+LE query Espressivamente complete, devono essere in qualche modo come un utente scrive ad un LLM che scrive qualsiasi parola e frase nel modo suo, e LLM capisce.
 
 Le query funzionano attraverso l'interpretazione del linguaggio naturale e la mappatura iniziale:
 
@@ -353,17 +97,6 @@ Ai fini per mantenere ordine, è consigliabile avere un singolo Space per ogni s
 ## 4.3 Session Layer
 
 Il **Session Layer** è la fase in cui gli Space già compilati vengono caricati per generare un'**istanza attiva di Omnispace**, rendendo la conoscenza disponibile per l'interazione e l'esplorazione.
-
-- **Cono di Luce:** rappresenta il **focus attivo dell'utente**. Il nodo _seed_ costituisce il punto centrale dell'attenzione e determina il riferimento attuale, che varia dinamicamente in base all'attenzione dell'utente. Il vincolo di contesto agisce come un **"Cono di Luce" focalizzato**, definendo l'area di osservazione attiva.
-    _Esempio:_ selezionando `Maranello`, il nodo `Maranello` diventa il _seed_ e il Cono di Luce definisce il nuovo focus dell'esplorazione.
-
-- **Campo Gravitazionale:** a partire dal focus definito dal Cono di Luce, il sistema ricalcola la **gravità degli Atomi**. La gravità rappresenta il peso relativo di ciascun Atomo nel nuovo campo, determinato dalle sue relazioni e dalla sua rilevanza rispetto al focus. Viene ricalcolato dagli Embedding originale, e questo campo si resetta ad ogni nuova sessione.
-    _Esempio:_ con `Maranello` come seed, `Ferrari` potrebbe assumere una gravità elevata, mentre un Atomo non correlato potrebbe diventare molto più leggero.
-
-- **Propagazione Energetica e Limite di Hop:** il nuovo campo gravitazionale determina il **paesaggio energetico** attraverso cui si propaga l'attivazione a partire dal _seed_. L'energia decade progressivamente durante la propagazione e viene influenzata dalla gravità degli Atomi attraversati. Un limite massimo di _hop_ determina la distanza massima raggiungibile, evitando un'espansione incontrollata dell'attivazione. Gli Atomi che superano una determinata _threshold_ vengono considerati attivi.  
-    _Esempio:_ partendo da `Maranello`, `Ferrari` può ricevere una forte attivazione, mentre Atomi progressivamente più lontani o meno rilevanti ricevono un'attivazione inferiore.
-
-Il **paesaggio energetico può far emergere naturalmente connessioni inattese**: relazioni inizialmente periferiche possono diventare progressivamente rilevanti quando il campo gravitazionale e la propagazione dell'attivazione le rendono accessibili.
 
 ## 4.4 Generation Layer
 
@@ -460,8 +193,19 @@ ____
 6. Ma l utente come capisce nell caos gigantesco del metagrafo? Da capire anche per discorso query, magari si autocompleta
 7. Il problema sarà anche come sarà, se ci sarà disordine in un Omnispace di 100 GB. Forse il Focus è la chiave? il cono di luce? Forse con la legge dei Grandi numeri, filtriamo ciò che dice la stessa cosa statistica che si ripetete tra i tanti dati che dicono più o meno la stessa cosa. Forse fa così il cervello per imparare quando legge tante cose che dicono la stssa cosa più o meno.
 8. Fare il modo di creare buoni vettori di qualità: strategie da usare ReRanker, oppure anche deve guardare tutto il contesto e altre.
-9. Ci sono due possibilità: o in qualche modo trasformo le sfumature in simbolico, oppure le sfumature sono su un altro piano, e nel simbolico sono fatti strutturati entrano.
-10. Basta imitare soltanto la Memoria Associativa? Penso che tutto: regole inferenza, deduzione, ecc. Deriva da quest'ultima, è solo che noi la chiamiamo deduzione, ma è un eco della memoria associativa, perchè ci sono più concetti attivi nella testa e quindi associamo. Non so se hai capito. Tipo esempio stavo parlando del mio piede che è cavo, ed ho associato nella mia testa con un ragionamento distante, e quindi nella mia testa si è attivato il concetto di supino, perchè l'arco plantare tende a supinare, e quindi nella mia testa si è ora avvicinato il concetto di mignolo vago. Questo meccanismo è la chiave. E funziona anche con cose indirette che hanno un filo conduttore. Questa è la generalizzazione.
+9. Basta imitare soltanto la Memoria Associativa? Penso che tutto: regole inferenza, deduzione, ecc. Deriva da quest'ultima, è solo che noi la chiamiamo deduzione, ma è un eco della memoria associativa, perchè ci sono più concetti attivi nella testa e quindi associamo. Non so se hai capito. Tipo esempio stavo parlando del mio piede che è cavo, ed ho associato nella mia testa con un ragionamento distante, e quindi nella mia testa si è attivato il concetto di supino, perchè l'arco plantare tende a supinare, e quindi nella mia testa si è ora avvicinato il concetto di mignolo vago. Questo meccanismo è la chiave. E funziona anche con cose indirette che hanno un filo conduttore. Questa è la generalizzazione.
+
+
+## 2.2 Esplorazione del sistema
+
+## 2.3 Estrazione delle Regole
+
+Dall'esplorazione delle connessioni, il sistema cristallizza nuove regole logiche. Esempio: se apprende che l'acqua bolle a 100 °C e congela a 0 °C, da queste osservazioni può generarsi una regola sul comportamento dell'acqua rispetto alla temperatura.
+
+La definizione delle regole avviene in due modi:
+
+- **Manuale** — l'utente la formula direttamente;
+- **Automatica** — il sistema la propone e l'utente la valida (coerentemente con il principio _Human in the Loop_).
 
 ___
 *Riferimenti:*
