@@ -13,6 +13,10 @@ ___
 
 **Space** è lo stato rappresentazionale della conoscenza: uno spazio strutturato e composizionale basato sugli **Atomi**, attraverso cui è possibile rappresentare entità, concetti, relazioni e valori. Nasce dall'idea di avvicinare la rappresentazione della conoscenza alla **struttura ricorsiva del pensiero umano**, puntando a una **Completezza Espressiva** paragonabile a quella del linguaggio naturale. Creando un sistema Simbolico-Probabilistico.
 
+il formato Space serve perchè così il sistema capisce costa gli stiamo dando in pasto. Darli la possibilità di caricare qualsiasi file caricato, il sistema non capisce la struttura.
+
+Ce il problema estrarre conoscenza da un file Space e ogni singolo file le sue robe all interno hanno vicinanza massima visto lo stesso file.
+
 È una **struttura minima**: tutto emerge dalla personalizzazione dell'utente. Come il pensiero umano, è **generativo** — funzioni complesse derivano da una base semplice, creando cose potenziale come: **verità soggettiva**, **logica non-monotona**, **saggezza della folla** e **programmazione propria**. Oppure forme illimitati di inferenza come **deduzione, induzione, abduzione, analogia, ragionamento controfattuale e inferenza non monotona**.
 
 Un **Atomo** è l'unità fondamentale della conoscenza. Può essere utilizzato singolarmente oppure combinato con altri Atomi per costruire strutture più complesse.
@@ -194,6 +198,9 @@ ____
 7. Il problema sarà anche come sarà, se ci sarà disordine in un Omnispace di 100 GB. Forse il Focus è la chiave? il cono di luce? Forse con la legge dei Grandi numeri, filtriamo ciò che dice la stessa cosa statistica che si ripetete tra i tanti dati che dicono più o meno la stessa cosa. Forse fa così il cervello per imparare quando legge tante cose che dicono la stssa cosa più o meno.
 8. Fare il modo di creare buoni vettori di qualità: strategie da usare ReRanker, oppure anche deve guardare tutto il contesto e altre.
 9. Basta imitare soltanto la Memoria Associativa? Penso che tutto: regole inferenza, deduzione, ecc. Deriva da quest'ultima, è solo che noi la chiamiamo deduzione, ma è un eco della memoria associativa, perchè ci sono più concetti attivi nella testa e quindi associamo. Non so se hai capito. Tipo esempio stavo parlando del mio piede che è cavo, ed ho associato nella mia testa con un ragionamento distante, e quindi nella mia testa si è attivato il concetto di supino, perchè l'arco plantare tende a supinare, e quindi nella mia testa si è ora avvicinato il concetto di mignolo vago. Questo meccanismo è la chiave. E funziona anche con cose indirette che hanno un filo conduttore. Questa è la generalizzazione.
+10. Da considerare bacini di attrazione Energy Based Model
+11. non ha senso partire con la sintassi (qualcosa qualcosa), è una cosa per dopo. Il vettore non è il piano B quando il simbolico fallisce. È una rappresentazione complementare che viene generata comunque. No, serve soltanto per il simbolico direi.
+12. Il significato delle parole avviene per associazione. La singola parola non vuol dire niente. E considera anche il contesto.
 
 
 ## 2.2 Esplorazione del sistema
@@ -206,6 +213,29 @@ La definizione delle regole avviene in due modi:
 
 - **Manuale** — l'utente la formula direttamente;
 - **Automatica** — il sistema la propone e l'utente la valida (coerentemente con il principio _Human in the Loop_).
+
+___
+
+
+📝 Appunto per il Modello: Cognitive-Science-Grounded Ontology Generation
+
+**Definizione sintetica:**  
+La _cognitive-science-grounded ontology generation_ è il processo con cui un'I.A. crea mappe concettuali (ontologie) strutturate imitando il modo in cui il cervello umano organizza, percepisce e sperimenta il mondo reale. A differenza delle ontologie classiche (che sono rigide e solo logico-matematiche), questa unisce la logica del computer con la flessibilità della psicologia cognitiva e delle neuroscienze.
+
+Agisce come una **memoria associativa spiegata**: non si limita a unire i concetti per "vicinanza" o statistica, ma definisce la relazione esatta tra di essi basandosi sulle esperienze umane.
+
+---
+
+💡 Esempio Semplice (Da usare come analogia)
+
+- **Approccio Ontologico Classico (Rigido):**  
+    Se chiedi al computer di definire una **"Tazza"**, creerebbe una regola matematica: _"Un cilindro cavo con un manico laterale, fatto di ceramica, con un diametro tra 7 e 12 cm"_.  
+    _Il problema:_ Se il computer vede una tazza quadrata, una tazza di plastica per bambini o un thermos senza manico pieno di tè caldo, rischia di non riconoscerli perché non rispettano i parametri freddi del database.
+- **Approccio Basato sulle Scienze Cognitive (Flessibile e Umano):**  
+    Il computer genera un'ontologia basata sulle **esperienze e sulle azioni umane** (_Grounded Cognition_). Collega il concetto di "Tazza" all'azione motoria di _afferrare con la mano_ e allo scopo di _contenere un liquido caldo da bere_.  
+    _Il risultato:_ Se il computer si imbatte in un cilindro di cartone senza manico ma pieno di caffè bollente, capirà che l'essere umano lo userà come una tazza. L'I.A. riconosce l'oggetto perché ragiona sulle _sensazioni fisiche_ e sui _bisogni_ dell'utente, non solo sulle geometrie.
+
+Deriva da questo: Cognee is an open-source AI memory platform for AI Agents. Ingest data in any format, and Cognee continuously builds a self-hosted knowledge graph that gives your agents persistent long-term memory across sessions. Cognee combines vector embeddings, graph reasoning, and cognitive-science-grounded ontology generation to make documents both searchable by meaning and connected by relationships that evolve as your knowledge does.
 
 ___
 *Riferimenti:*

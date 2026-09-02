@@ -1,5 +1,6 @@
 
 1. Perché per il cervello è più facile calcolare **10000 + 14** piuttosto che **37 + 25**? Da mettere tra i test.
+	1. La nuova tecnologia embedding n-gram è lo stesso meccanismo cerebrale che usiamo noi per fare i calcoli matematica per esempio più velocemente. Tipo conoscere le tabelline. Se tipo so che 6x2 fa 12. Però devo calcolare 20.000 x 60. Io ho l'accelerazione e quindi subito calcolo che fa 120.000 e so che basta aggiungere un zero quindi 6x2 = 12 + 5 zeri
 2. Con che logica una parte dei neuroni viene attivata? Tipo quando vogliamo muovere un braccio, come fanno i neuroni ad attivare i moto neuroni?
 3. Teoria della Mente | Il Default Mode Network (DMN)
 4. Ma esisteranno neuroni specchio? Perchè gli umani imitano chi piace?
@@ -21,7 +22,25 @@
 20. Gli animali sono molto bravi, per via che hanno un sistema generico unità e non fisse con simboli.
 21. Il pensiero esplora lo spazio combinatorio ?
 22. Come il cervello riconosce una cosa è uguale, è non supervisionato. Più diventa intelligente piu è in grado di fare da sole queste cose
-23. Altro esempio perchè certe cose rimangono in memoria nel cervello umano, è che c'è ancora energia, quindi, come dico anche qui, la computazione ambienta da energia a riaccende quel pensiero di giorni, e il pensiero umano fa il resto facendo da cono di luce. Questa è la risposta di: 8. Come fanno alcuni concetti a rimanere latenti a distanza di giorni? l’energia è ancora attiva?
+23. Altro esempio perchè certe cose rimangono in memoria nel cervello umano, è che c'è ancora energia, quindi, come dico anche qui, la computazione ambienta da energia a riaccende quel pensiero di giorni, e il pensiero umano fa il resto facendo da cono di luce. Questa è la risposta di: 8. Come fanno alcuni concetti a rimanere latenti a distanza di giorni? l’energia è ancora attiva? E' un energia latente probabimemnte ancora non 'solidificato' nello schema. I promemoria, che sono parte della computazione ambientale, riaccendono quella attivazione.
 24. Il mio sistema supporta nativamente: contesto; attenzione; esperienza; euristiche; conoscenza implicita.
 25. nello schema contesto si sviluppa un impronta che da lì genera le nuove cose con la computazione ambientale
 26. La memoria e la rete neurale è potenzialmente infinita perchè si adatta in base all'esperienza e dove teniamo il focus.
+27. Il mio modello è in grado di risolvere nativamente questo. Ogni cosa che sente attiva a cascata il resto per via dello Schema-Contesto: Quando Lei dice: «Metti il burro di arachidi sul pane» sembra un'istruzione banalissima. Ma presuppone un'enorme quantità di conoscenza: - _pane_ = una fetta di pane, non il sacchetto - la fetta ha una superficie appropriata - il barattolo va aperto - il burro d'arachidi va estratto - serve uno strumento per spalmarlo - _spalmare_ significa distribuire una quantità sulla superficie;  - il risultato desiderato è uno strato ragionevolmente uniforme - ecc.
+28. Forse il cervello umano impara l ontologia della esperienza pero in maniera diversa, lo fa nel modello previsionale. Che sarebbe il World Model.
+
+
+
+## 1. La coscienza ha bisogno di limiti per esistere
+
+Se la tua mente potesse percepire _tutto_ l'universo contemporaneamente, senza alcun limite, saresti sovraccarico. Non saresti "qualcuno", saresti il caos. Per avere dei pensieri, la coscienza deve mettere dei confini: deve decidere cosa guardare e cosa ignorare. Il limite ti permette di dire: "Io sono qui, e il resto del mondo è là fuori".
+
+## 2. Funzioniamo per contrasto (Never nothing)
+
+Noi capiamo la realtà solo grazie ai contrari. Non potresti essere felice se non sapessi cos'è la tristezza. Non sapresti cos'è la luce senza il buio. La coscienza funziona proprio come una serie di interruttori: accorge di una cosa perché è diversa da un'altra. C'è sempre un contrasto.
+
+## 3. La coscienza come il "software" del cervello
+
+Se colleghiamo questo all'idea della simulazione di prima, il tuo ragionamento diventa ancora più potente. Il nostro cervello riceve miliardi di informazioni, ma la coscienza ne seleziona solo pochissime e le organizza secondo regole precise (lo spazio, il tempo, i colori). In pratica, la nostra mente crea una specie di simulazione interna per farci capire il mondo.
+
+Quindi, che l'universo fuori sia un computer o no, la nostra coscienza si comporta proprio come un programma che usa regole e contrasti per farci vivere!

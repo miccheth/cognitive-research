@@ -19,3 +19,20 @@ Il sistema gestisce la conoscenza attraverso due livelli differenziati di modifi
 - **Adaptive (Apprendimento):** Compartimenti ad **alta plasticità** che si modificano rapidamente interagendo con l'ambiente e i dati. È la memoria dinamica, l'acquisizione di nuove competenze e l'aggiornamento delle regole probabilistiche. Corrisponde al modo in cui l'esperienza modella l'architettura di base.
 
 ___
+
+Per architettura innata intendo dire che il cervello vede le cose secondo quelle cose da cui partano come punto di origine. Però genera infinite sfumature, ma sempre come base quella. Considera il nostro modo di vedere il mondo, segue quelle regole.
+
+Esempio proprietà innate:
+
+1.⁠ ⁠Entità — oggetti, persone, animali, sé stesso, ecc.
+2.⁠ ⁠Proprietà — forma, peso, colore, temperatura, velocità, ecc.
+3.⁠ ⁠Relazioni — “A è dentro B”, “A è vicino a B”, “A appartiene a B”.
+4.⁠ ⁠Dinamiche — come le cose cambiano nel tempo.
+5.⁠ ⁠Causalità — “se faccio X, probabilmente succede Y”.
+6.⁠ ⁠Agenti e intenzioni — cosa vogliono e probabilmente faranno gli altri.
+7.⁠ ⁠Spazio e tempo — dove sono le cose e come evolvono gli eventi.
+8.⁠ ⁠Regolarità astratte — concetti che permettono di generalizzare a situazioni nuove.
+9.⁠ ⁠Probabilità/incertezza — non solo “X succede”, ma “X è più o meno probabile”.
+
+
+Cognitive Atlas definisce tutte queste cose penso.
