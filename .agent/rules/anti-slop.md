@@ -1,14 +1,14 @@
-# Anti-slop rules
+# **Regole anti-slop**
 
-Apply when writing any prose — docs, comments, commit messages, PR descriptions, READMEs. Background and sources: [../reference/ai-slop.md](../reference/ai-slop.md).
+Applica queste regole a qualsiasi testo in prosa: documentazione, commenti, messaggi di commit, descrizioni di PR, README. Per contesto e fonti, consulta [.agent/reference/ai-slop.md](.agent/reference/ai-slop.md)⁠
 
-1. **No throat-clearing.** Cut intros like "In today's fast-paced world" and outros like "In conclusion." Start with the point.
-2. **No inflated vocabulary.** Don't use *delve, leverage, robust, seamless, tapestry, realm, underscore, illuminate, boast, navigate (figurative)* — use the plainest accurate word.
-3. **Ration em-dashes.** At most one per paragraph; prefer commas, periods, or parentheses.
-4. **Ban filler phrases.** No "it's important to note that," "generally speaking," "to some extent," "from a broader perspective."
-5. **Drop the "not just X, it's Y" / "from X to Y" templates.**
-6. **Be concrete.** Use real examples, exact numbers, and named references instead of generalities.
-7. **Take a position.** State the recommendation; don't hedge every claim.
-8. **Prose over bullets** unless a list is genuinely the clearest form. Don't bold everything.
-9. **No redundant summary** that restates what was just said.
-10. **Vary sentence rhythm.** Avoid the repeated topic-sentence → evidence → summary paragraph template.
+1. **Niente preamboli inutili.** Elimina aperture come «Nel mondo frenetico di oggi» e chiusure come «In conclusione». Vai subito al punto.
+2. **Niente parole pompose.** Evita termini come _approfondire, sfruttare, robusto, fluido, arazzo, ambito, sottolineare, mettere in luce, vantare, navigare_ in senso figurato. Usa la parola più semplice che descrive correttamente ciò che intendi.
+3. **Usa con moderazione il trattino lungo.** Al massimo uno per paragrafo. Quando possibile, preferisci virgole, punti o parentesi.
+4. **Elimina le frasi riempitive.** Niente «è importante notare che», «in generale», «in una certa misura», «da una prospettiva più ampia» e formule simili.
+5. **Evita gli schemi preconfezionati.** Niente formule come «non è solo X, è Y» o «da X a Y» quando vengono usate come costruzioni retoriche generiche.
+6. **Sii concreto.** Usa esempi reali, numeri precisi e riferimenti espliciti invece di generalizzazioni.
+7. **Prendi posizione.** Esprimi chiaramente la raccomandazione. Non riempire ogni frase di cautele e formule dubitative.
+8. **Preferisci la prosa agli elenchi.** Usa i punti elenco solo quando rendono davvero più chiara una lista. Non mettere tutto in grassetto.
+9. **Niente riassunti ridondanti.** Non ripetere alla fine ciò che hai appena detto.
+10. **Varia il ritmo delle frasi.** Evita di costruire ogni paragrafo con lo stesso schema: frase principale → prove → riepilogo.

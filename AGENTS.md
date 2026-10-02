@@ -1,10 +1,15 @@
-# Project guidance
+# **Linee guida del progetto**
 
-Shared instructions for all AI coding agents live in [.agent/](.agent/).
-## Writing style
+Le istruzioni condivise per tutti gli agenti di coding IA si trovano in [.agent/](.agent/).
 
-When writing prose — docs, comments, commit messages, PR descriptions, READMEs — avoid AI slop. Be specific, front-load substance, use plain words, ration em-dashes, and keep a consistent direct voice.
+La cartella [raw/](raw/). non è da considerare e non devi assolutamente leggerla.
 
-Read and follow the rules in [.agent/rules/anti-slop.md](.agent/rules/anti-slop.md) before writing prose.
+Per tutte le cose, rispetta la lingua del progetto, sia per i commit, riscrittura, ecc.
 
-Background and sources: [.agent/reference/ai-slop.md](.agent/reference/ai-slop.md).
+## **Stile di scrittura**
+
+Quando scrivi in prosa, per esempio documentazione, commenti, messaggi di commit, descrizioni di PR o README, evita l’AI slop. Sii specifico, vai subito alla sostanza, usa parole semplici, limita l’uso dei trattini lunghi e mantieni una voce diretta e coerente.
+
+Prima di scrivere qualsiasi testo in prosa, leggi e segui le regole in [.agent/rules/anti-slop.md](.agent/rules/anti-slop.md).
+
+Per contesto e fonti, consulta [.agent/reference/ai-slop.md](.agent/reference/ai-slop.md).
