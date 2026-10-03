@@ -1,21 +1,15 @@
-***Stato:** Bozza*
-***Lingua progetto attuale:** it_IT*
-
-***Nota:** il nome **Elevia** è provvisorio e verrà sostituito, poiché già utilizzato.*
-
-***Nota:** sto valutando se trasformarlo in un paper collaborativo. Servirà una struttura decisionale (es. ad albero) e tool gestionali per organizzare i contributi senza disperdere le idee migliori.*
-
-
 # 1. Manifesto
 ## 1.1 Il problema moderno
 
-Nel lavoro intellettuale capita di avere informazioni utili senza riuscire a collegarle quando servono. Una connessione, un dato o un metodo migliore emergono solo dopo aver speso tempo su una strada meno utile. La memoria di lavoro può gestire pochi elementi alla volta: seguire i dettagli e mantenere una visione d'insieme richiede uno sforzo che cresce con la quantità di informazioni da confrontare.
+Gli esseri umani hanno una conoscenza generale del mondo, costruita attraverso esperienze e apprendimento. Il cervello può apprendere e ragionare su problemi molto diversi, ma affrontare un problema preciso richiede informazioni specifiche che non sempre possediamo o riusciamo a richiamare. Anche quando sono disponibili, non possiamo tenerle tutte presenti nello stesso momento: la memoria di lavoro gestisce pochi elementi alla volta, e seguire i dettagli senza perdere la visione d'insieme diventa più difficile con l'aumentare delle informazioni da confrontare.
+
+Nel lavoro intellettuale una connessione, un dato o un metodo migliore possono emergere solo dopo aver speso tempo su una strada meno utile. Nel 2026 il collo di bottiglia è riuscire ad utilizzare questa immensità di informazioni, che possono servire per il problema che stiamo affrontando.
 
 Il flusso continuo di informazioni rende questo lavoro ancora più difficile. Un'osservazione in un commento sui social e un risultato descritto in un articolo scientifico possono riguardare lo stesso problema, ma arrivano in contesti separati. Vorrei poterli confrontare senza perdere la provenienza, le prove disponibili e il diverso grado di attendibilità. Mettere in relazione le fonti non significa attribuire a tutte lo stesso valore.
 
 Una delle mie ispirazioni è la Fiamma di *The 100*: mi interessa l'idea di un'IA progettata per amplificare le capacità del cervello umano. È questa la direzione che vorrei dare a Elevia: aiutare le persone a usare meglio ciò che sanno e a riconoscere connessioni che altrimenti rischierebbero di perdere, senza sostituirsi al loro giudizio.
 
-### 1.1.1 Esempi per capire meglio il problema
+### Esempi per capire meglio il problema
 
 1. La lettura in una lingua che stiamo imparando. Parte dell'attenzione serve a decifrare parole e frasi, lasciando meno risorse per capire il contenuto e collegarlo a ciò che sappiamo. È un esercizio utile se vogliamo allenare la lingua; se invece vogliamo studiare l'argomento, quella stessa difficoltà può rallentarci. Vorrei che Elevia aiutasse a ridurre questo carico, così da dedicare più attenzione alla comprensione.
 
@@ -42,13 +36,20 @@ L’obiettivo è rendere più facile usare la conoscenza disponibile come base p
 5. **Comprensione del significato.** Il sistema interpreta il senso reale delle informazioni gestendo la complessità del linguaggio naturale, senza appiattirla.
 
 ___
+***Lingua progetto attuale:** it_IT*
+
+***Nota:** il nome **Elevia** è provvisorio e verrà sostituito, poiché già utilizzato.*
+
+***Nota:** sto valutando se trasformarlo in un paper collaborativo. Servirà una struttura decisionale (es. ad albero) e tool gestionali per organizzare i contributi senza disperdere le idee migliori.*
+
+
 *Riferimenti:*
-- *[I1] [[Amplifica l'Essere Umano senza sostituirlo]]*
-- *[I2] [[Il Problema delle Triplette Limitate]]*
-- *[I3] [[I limiti umani]]*
+- *[I1] [Amplifica l'Essere Umano senza sostituirlo](references/Amplifica%20l%27Essere%20Umano%20senza%20sostituirlo.md)*
+- *[I2] [Il Problema delle Triplette Limitate](references/Il%20Problema%20delle%20Triplette%20Limitate.md)*
+- *[I3] [I limiti umani](references/I%20limiti%20umani.md)*
 - *[I4] [https://metta-lang.dev/](https://metta-lang.dev/)*
-- *[I5] [[Post Reddit Spiegazione Prototipo Iniziale]]*
+- *[I5] [Post Reddit Spiegazione Prototipo Iniziale](references/Post%20Reddit%20Spiegazione%20Prototipo%20Iniziale.md)*
 - *[I6] [https://www.nayuki.io/page/designing-better-file-organization-around-tags-not-hierarchies](https://www.nayuki.io/page/designing-better-file-organization-around-tags-not-hierarchies)*
-- *[I7] [ https://karl-voit.at/managing-digital-photographs/](https://karl-voit.at/managing-digital-photographs/)*
+- *[I7] [https://karl-voit.at/managing-digital-photographs/](https://karl-voit.at/managing-digital-photographs/)*
 - *[I8] [https://karl-voit.at/2022/01/29/How-to-Use-Tags/](https://karl-voit.at/2022/01/29/How-to-Use-Tags/)*
-- *[I9] [[04 Projects/cognitive-research/Elevia/references/Attenzione come Convergenza Energetica Geometrica|Attenzione come Convergenza Energetica Geometrica]]
+- *[I9] [Attenzione come Convergenza Energetica Geometrica](references/Attenzione%20come%20Convergenza%20Energetica%20Geometrica.md)*
