@@ -11,7 +11,7 @@ $$\text{[Minimizzazione dell'Energia (Scivolamento Dinamico)]} \longrightarrow \
 # 2. L'Ipervettore di Contesto come Modulatore di Campo
 
 - **Olistica del Contesto:** Nessun concetto o simbolo esiste in isolamento. L'**Ipervettore di Contesto** cattura lo stato globale del sistema.
-    
+
 - **Gravità Semantica:** Metaforicamente, lo spazio geometrico del modello si comporta come un "foglio di gomma" teso. L'ipervettore di contesto agisce come una forza gravitazionale che deforma questo foglio, alterando il panorama energetico. Modificando i dislivelli, rende determinati bacini di attrazione (attrattori) più profondi, larghi e cinematicamente "invitanti" per l'input sgranato. (Tipo se è attivo nel contesto il cluster Maranello, Auto Sportiva, Rossa –> Per legge intrinseco del modello, molto probabilmente vedremo l’attivazione del Cluster Ferrari.
 # 3. L'Attenzione come Convergenza e Minimizzazione Energetica
 

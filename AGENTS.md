@@ -2,8 +2,6 @@
 
 Le istruzioni condivise per tutti gli agenti di coding IA si trovano in [.agent/](.agent/).
 
-La cartella [raw/](raw/). non è da considerare e non devi assolutamente leggerla.
-
 Per tutte le cose, rispetta la lingua del progetto, sia per i commit, riscrittura, ecc.
 
 ## **Stile di scrittura**

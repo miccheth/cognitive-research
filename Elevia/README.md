@@ -1,3 +1,15 @@
+# Indice del progetto
+
+I documenti in `docs/` descrivono la proposta e i casi di studio di Elevia. Quelli in `brainstorming/` raccolgono idee, problemi aperti e possibili sviluppi, non decisioni definitive.
+
+## Documentazione
+
+- [Proposta](docs/PROPOSTA.md): Space, interfaccia, esplorazione della conoscenza e ingestione dei contenuti.
+
+## Esperimenti
+
+- Varie fasi di sperimentazione disponibile in `elevia-experiments/`
+
 # Manifesto
 
 ## Il problema moderno
@@ -41,8 +53,8 @@ ___
 
 
 *Riferimenti:*
-- *[I1] [Amplifica l'Essere Umano senza sostituirlo](Amplifica%20l'Essere%20Umano%20senza%20sostituirlo.md)*
-- *[I2] [Il Problema delle Triplette Limitate](Il%20Problema%20delle%20Triplette%20Limitate.md)*
-- *[I3] [I limiti umani](I%20limiti%20umani.md)*
-- *[I4] [Post Reddit Spiegazione Prototipo Iniziale](Post%20Reddit%20Spiegazione%20Prototipo%20Iniziale.md)*
+- *[I1] [Amplifica l'Essere Umano senza sostituirlo](references/internal/Amplifica%20l'Essere%20Umano%20senza%20sostituirlo.md)*
+- *[I2] [Il Problema delle Triplette Limitate](references/internal/Il%20Problema%20delle%20Triplette%20Limitate.md)*
+- *[I3] [I limiti umani](references/internal/I%20limiti%20umani.md)*
+- *[I4] [Post Reddit Spiegazione Prototipo Iniziale](references/internal/Post%20Reddit%20Spiegazione%20Prototipo%20Iniziale.md)*
 - *[I5] [Synthetic Expertise](references/external/Synthetic_Expertise.pdf)*

@@ -27,12 +27,12 @@ Gli LLM mi fanno pensare a una possibilità simile: apprendendo dal linguaggio u
 
 # Un'ontologia costruita attraverso l'esperienza
 
-- **Approccio Ontologico Classico (Rigido):**  
-    Se chiedi al computer di definire una **"Tazza"**, creerebbe una regola matematica: _"Un cilindro cavo con un manico laterale, fatto di ceramica, con un diametro tra 7 e 12 cm"_.  
+- **Approccio Ontologico Classico (Rigido):**
+    Se chiedi al computer di definire una **"Tazza"**, creerebbe una regola matematica: _"Un cilindro cavo con un manico laterale, fatto di ceramica, con un diametro tra 7 e 12 cm"_.
     _Il problema:_ Se il computer vede una tazza quadrata, una tazza di plastica per bambini o un thermos senza manico pieno di tè caldo, rischia di non riconoscerli perché non rispettano i parametri freddi del database.
 
-- **Approccio Basato sulle Scienze Cognitive (Flessibile e Umano):**  
-    Il computer genera un'ontologia basata sulle **esperienze e sulle azioni umane** (_Grounded Cognition_). Collega il concetto di "Tazza" all'azione motoria di _afferrare con la mano_ e allo scopo di _contenere un liquido caldo da bere_.  
+- **Approccio Basato sulle Scienze Cognitive (Flessibile e Umano):**
+    Il computer genera un'ontologia basata sulle **esperienze e sulle azioni umane** (_Grounded Cognition_). Collega il concetto di "Tazza" all'azione motoria di _afferrare con la mano_ e allo scopo di _contenere un liquido caldo da bere_.
     _Il risultato:_ Se il computer si imbatte in un cilindro di cartone senza manico ma pieno di caffè bollente, capirà che l'essere umano lo userà come una tazza. L'I.A. riconosce l'oggetto perché ragiona sulle _sensazioni fisiche_ e sui _bisogni_ dell'utente, non solo sulle geometrie.
 
 

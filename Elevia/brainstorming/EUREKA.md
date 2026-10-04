@@ -28,3 +28,10 @@ Durante una sessione con Elevia, contenente in uno Space una notizia finanziaria
 # Caso di studio: propagazione a 100 hop
 
 Durante una sessione con Elevia, estendere la propagazione dell'attivazione fino a 100 passaggi tra relazioni permette di scoprire collegamenti tra concetti distanti, comparabili a quelli che una persona coglie per intuizione? Il test serve a verificare se questi percorsi portano a conclusioni pertinenti al problema iniziale o se, con l'aumentare dei passaggi, prevalgono associazioni prive di utilità e rumore semantico.
+
+
+# Caso di studio: uso con agenti AI
+
+Esporre Elevia tramite un server MCP, così che un team di agenti AI possa usarlo per esplorare la conoscenza, formulare ipotesi e verificare i collegamenti tra informazioni.
+
+Voglio testare se questo accesso può sostenere un ciclo di miglioramento ricorsivo (*recursive improvement learning*): gli agenti usano i risultati di ogni ciclo per correggere le ipotesi e orientare le esplorazioni successive. Il test serve a verificare se questo processo porta a risultati più pertinenti rispetto all'uso degli stessi agenti senza Elevia.

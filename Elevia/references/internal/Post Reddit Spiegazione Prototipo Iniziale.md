@@ -24,7 +24,7 @@ Source → Extraction → Grounding → Metagraph Representation
 
 The grounding phase would transform concepts expressed in natural language into shared canonical entities and relationships.
 
-  
+
 
 For example, two independent laboratories could produce separate pieces of knowledge.
 
@@ -36,21 +36,21 @@ The first laboratory studies a drug:
 ```
 ; ========================================
 ; SOURCE A (Genetics Lab)
-; ========================================  
+; ========================================
 
 ; --- Grounded Types ---
 (: Drug Type)
 (: Protein Type)
-(: Biological_Process Type)  
+(: Biological_Process Type)
 
 ; --- Grounded Entities ---
 (: Drug_A Drug)
 (: EGFR Protein)
-(: Tumor_Growth Biological_Process)  
+(: Tumor_Growth Biological_Process)
 
 ; --- Source Assertions ---
 (stimulates EGFR Tumor_Growth)
-(inhibits Drug_A EGFR)  
+(inhibits Drug_A EGFR)
 ```
 
 This representation says only:
@@ -65,16 +65,16 @@ A second laboratory studies another mechanism:
 ```
 ; ========================================
 ; SOURCE B (Biochemistry Lab)
-; ========================================  
+; ========================================
 
 ; --- Grounded Entities ---
 (: Drug_B Drug)
 (: MET Protein)
-(: Tumor_Growth Biological_Process)  
+(: Tumor_Growth Biological_Process)
 
 ; --- Source Assertions ---
 (stimulates MET Tumor_Growth)
-(inhibits Drug_B MET)  
+(inhibits Drug_B MET)
 ```
 
 This second source says only:
@@ -112,7 +112,7 @@ Drug_B
 ```
 
 From this structure, a question could emerge:
-  
+
 > _"Could there be a compensatory mechanism between EGFR and MET that explains treatment resistance?"_
 
 ## Human-Centric Discovery
@@ -175,7 +175,7 @@ Per esempio, due laboratori indipendenti potrebbero produrre due insiemi distint
 
 ### Sorgente A
 
-Il primo laboratorio studia un farmaco:  
+Il primo laboratorio studia un farmaco:
 `file: source_a.thinking`
 
 ```lisp
@@ -205,7 +205,7 @@ Questa rappresentazione afferma semplicemente che:
 
 ### Sorgente B
 
-Un secondo laboratorio studia un altro meccanismo:  
+Un secondo laboratorio studia un altro meccanismo:
 `file: source_b.thinking`
 
 ```lisp
