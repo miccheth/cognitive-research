@@ -6,6 +6,7 @@
 
 3. **La larghezza di banda dell'output:** Pensiamo a velocità altissima, ma comunichiamo lentamente (scrivendo o parlando a poche parole al minuto).
 
+
 # Come la piattaforma diventa il tuo "Esoscheletro Cognitivo"
 
 - **La parte Neuro (L'Ingestione ad alta velocità):** Tu dai in pasto al sistema migliaia di fonti (libri, articoli, dati, i tuoi stessi appunti disordinati). L'AI neurale digerisce questa massa enorme di dati in pochi secondi, catturando le sfumature semantiche che tu impiegheresti mesi a leggere.

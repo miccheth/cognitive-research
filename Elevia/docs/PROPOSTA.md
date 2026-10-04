@@ -1,102 +1,81 @@
-# 1. Space
+# Space
 
-Proponiamo uno spazio unificato chiamato **Space**, che raccoglie la conoscenza salvata dall'utente e la rende esplorabile. L'obiettivo è preservare la ricchezza espressiva del linguaggio naturale, senza costringere ogni contenuto in categorie rigide o descrizioni che ne perdano il significato.
+**Space** è lo spazio di conoscenza unificato di Elevia: raccoglie i contenuti scelti dall'utente e permette di ritrovarli ed esplorarne i possibili collegamenti. L'obiettivo è preservare ciò che esprimono, senza ridurli a categorie rigide, mantenendo accessibili le fonti originali.
 
-Space deve poter accogliere contenuti in formati diversi. Per i formati supportati, il sistema legge il file e ne ricava una descrizione del contenuto. Anche i file che non può interpretare possono essere caricati: in questi casi, l'utente ne descrive manualmente il significato. Accettare un file non equivale quindi a comprenderne automaticamente il contenuto.
+In accordo con il principio **Human in the loop**, l'utente decide che cosa aggiungere e ne valuta l'utilità. L'IA lo assiste nell'organizzazione e nell'esplorazione, senza alimentare lo spazio autonomamente né sostituirsi al suo giudizio.
 
-In accordo con il principio **Human in the loop**, è l'utente a decidere quali contenuti entrano nel proprio spazio di conoscenza. Prima di aggiungerli, li legge o li esamina e ne valuta l'utilità. L'IA può assisterlo nell'interpretazione e nell'organizzazione, ma non dovrebbe alimentare lo spazio autonomamente, senza il suo controllo.
-
-Sono previsti dei meccanismi per limitare un'esplorazione incontrollata. Questo serve perchè in futuro potrebbero esserci centinaia di nuovi file.
-
-## 1.1 Caratteristiche
-
-1. **Inserimento dei file:** aggiungere nuovi contenuti, con una descrizione ricavata dal sistema o fornita dall'utente.
-2. **Rimozione di un file:** consentire all'utente di rimuovere il file conservando la descrizione e i metadati associati. Questi saranno scritti nel nome del file stesso.
+Sono previsti meccanismi per delimitare l'esplorazione e limitarne l'estensione, così da mantenerla sotto il controllo dell'utente anche quando cresce il numero di contenuti.
 
 
-# 2. Interfaccia
-## 2.1 Query Engine
+# Interfaccia
 
-Il Query Engine è l'interfaccia attraverso cui l'utente consulta Space. Permette di organizzare i contenuti per ritrovarli e di esplorarli per cercare informazioni pertinenti e possibili collegamenti. L'utente comunica con il sistema attraverso maschere di contesto (iniezioni di guida) usando il linguaggio naturale.
+## Query Engine
 
-## 2.2 Discovery Engine
+Il Query Engine è il motore che gestirà le query in linguaggio naturale usate dall'utente per consultare Space. Da queste dovrà estrarre le maschere di contesto, così da definire la direzione in cui l'utente intende orientare l'esplorazione.
 
-Il Discovery Engine guida l'esplorazione di Space attraverso le maschere di contesto definite dall'utente. Queste orientano l'attenzione e permettono di cercare contenuti e possibili collegamenti rispetto alla richiesta corrente.
+## Discovery Engine
 
-### Il Cono di Luce
+Il Discovery Engine riceve le maschere di contesto generate dal Query Engine e le applica a Space. Il sistema adatta l’esplorazione per rendere accessibili i contenuti pertinenti, senza modificare la struttura permanente.
 
-Il Cono di Luce rappresenta il focus dell'utente nello spazio di rappresentazione unificato. È definito dalle maschere di contesto, che delimitano l'esplorazione e indicano dove concentrare l'attenzione.
+### Attention Beam
 
-Possono essere attive più maschere contemporaneamente. Una maschera può esprimere un tema, un problema, uno scopo o un insieme di contenuti da considerare.
+Rappresenta il focus dell’utente in Space. È definito dalle maschere di contesto generate, che indicano su che cosa concentrare l’attenzione e delimitare l’esplorazione.
 
-Il focus determina come viene osservata la memoria, senza modificarla né creare relazioni. Quando l'utente cambia le maschere, il sistema ricalcola il Campo Contestuale.
+Più maschere possono contribuire allo stesso focus, specificando temi, problemi, scopi o contenuti da considerare.
 
-### Il Campo Contestuale
+### Relevance Field
 
-Il Campo Contestuale è una deformazione temporanea dello spazio di rappresentazione prodotta dal focus corrente. La struttura memorizzata rimane invariata; cambiano le **distanze contestuali**, cioè quanto gli elementi risultano vicini o lontani rispetto alle maschere attive.
+E' la deformazione temporanea dello spazio di rappresentazione. Modifica le **distanze contestuali** tra i contenuti: elementi lontani rispetto ad altri focus possono risultare vicini rispetto alla richiesta corrente.
 
-Con la maschera «produzione delle auto Ferrari», per esempio, `Maranello` può risultare particolarmente vicino. Con «consumi delle auto Ferrari», possono ricevere maggiore attenzione altri contenuti.
+Con la maschera «produzione delle auto Ferrari», per esempio, `Maranello` può risultare particolarmente vicino ai contenuti sulla produzione. Con «consumi delle auto Ferrari», saranno favoriti altri contenuti e percorsi.
 
-Questa vicinanza favorisce l'esplorazione di percorsi già possibili nello spazio, senza creare nuove relazioni. Il Campo Contestuale è unico per il focus corrente: tutte le maschere attive contribuiscono a definirlo.
+Tutte le maschere attive contribuiscono a un unico campo, che viene ricalcolato quando cambia il focus. La struttura permanente resta invariata: cambiano le vicinanze usate per l’esplorazione, senza registrare nuove relazioni.
 
-### La propagazione dell'energia
+### Activation Spread
 
-L'energia rappresenta l'attivazione prodotta dalle maschere di contesto e propagata tra i contenuti di Space. Può seguire le relazioni esplicite già presenti oppure le vicinanze di significato nello spazio di rappresentazione.
+Rappresenta l’attivazione prodotta dalle maschere di contesto. Si propaga tra i contenuti di Space seguendo le relazioni esplicite o le vicinanze di significato nello spazio di rappresentazione.
 
-La struttura dello spazio determina i percorsi possibili. Il Campo Contestuale favorisce alcuni passaggi rispetto ad altri, entro i confini stabiliti dalle maschere.
+La struttura di Space determina i percorsi possibili; il Campo Contestuale favorisce alcuni passaggi rispetto ad altri. La propagazione permette così di esplorare anche contenuti collegati indirettamente al focus dell’utente.
 
-A ogni passaggio, o **hop**, l'energia decade. L'utente definisce un budget massimo per non avere un'attivazione incontrollata.
-
-### Esempio: scoprire il riscaldamento a microonde con Elevia
-
-Immaginiamo di usare Elevia prima che sia nota l'applicazione delle microonde alla cottura degli alimenti. Il magnetron esiste già ed è impiegato nei radar. Space contiene informazioni sul cioccolato, sul funzionamento del magnetron e sull'interazione tra onde elettromagnetiche e materia, ma nessun documento che descriva un forno a microonde o colleghi direttamente il magnetron alla cottura.
-
-L'utente nota che il cioccolato si è sciolto mentre lavorava vicino a un apparato radar. Registra l'osservazione e definisce la maschera «Che cosa potrebbe aver fatto sciogliere il cioccolato in queste condizioni?». Il radar è parte del contesto osservato, non una causa già stabilita.
-
-Il Discovery Engine dovrebbe poter esplorare un percorso come questo:
-
-```text
-       osservazione: cioccolato sciolto
-              vicino a un radar
-                      │
-              contesto cioccolato
-                      │
-                 scioglimento
-                      │
-                 riscaldamento
-                       ╲
-                        ╲  distanza contestuale
-                         ╲ ridotta dal campo
-                          ╲
-                assorbimento di energia
-                   da onde elettromagnetiche
-                          │
-                       microonde
-                          │
-                      magnetron
-                          │
-                     contesto radar
-```
-
-In questo esempio, Elevia non crea nuove relazioni nella memoria. La maschera modifica il Campo Contestuale e riduce le distanze contestuali tra regioni che, rispetto ad altri focus, risultano lontane. Le conoscenze sul cioccolato e quelle sul radar diventano così più vicine rispetto al problema osservato. Emergono percorsi già possibili nello spazio, ma prima poco favoriti, mentre la struttura memorizzata rimane invariata.
-
-Dal percorso emerge un’ipotesi da verificare: le microonde emesse dal magnetron potrebbero aver riscaldato il cioccolato fino a scioglierlo.
+A ogni passaggio, o **hop**, l’energia decade. L’utente definisce un budget massimo per limitare l’estensione dell’esplorazione ed evitare un’attivazione incontrollata.
 
 
-# 3. Ingestion
+# Ingestion
 
 L'Ingestion Layer prepara i contenuti scelti dall'utente per inserirli in Space e renderli consultabili. L'utente mantiene il controllo su ciò che viene aggiunto e può correggere metadati e descrizioni.
 
-## Organizzazione
+## Organizzazione deterministica
 
-Per ogni file, l’ingestion raccoglie i metadati disponibili o forniti dall’utente e li registra come coppie chiave-valore. Le facets sono le dimensioni attraverso cui il file viene descritto, come autore, fonte, data e tipo. Questi attributi costituiscono la base dell'organizzazione deterministica: permettono di selezionare, raggruppare e ordinare i file secondo criteri espliciti. A parità di dati e criteri, il risultato è lo stesso.
+L'ingestion registra tag, concetti e metadati associati ai contenuti, seguendo il modello proposto da Nayuki. Questa organizzazione si basa su associazioni esplicite, non su somiglianze di significato. Ogni file può essere classificato in più modi, senza assegnargli una sola posizione in una gerarchia di cartelle.
 
-## Rappresentazione per l'esplorazione
+**Tag semplici**: Sono etichette testuali associate ai file, come `vacanza` per `foto1.jpg`. Un file può avere più etichette oppure nessuna; la stessa etichetta può descrivere più file.
 
-Per i formati supportati, l'ingestion legge il contenuto, ne ricava una descrizione e prepara una rappresentazione comune destinata all'esplorazione probabilistica. Questa rappresentazione permette di confrontare ciò che i file esprimono anche quando provengono da fonti e formati diversi, senza limitarsi alle corrispondenze tra metadati.
+**Tag complessi**: Separano il concetto dai suoi nomi attraverso un nucleo chiamato *tag core*. Il modello permette di gestire:
+	- Lingue diverse: `Roma` e `Rome` sono nomi associati allo stesso concetto.
+	- Omonimi: la città di Roma e una persona di cognome Roma hanno nuclei distinti, anche se condividono un nome.
+	- Cambi di nome: aggiungere `Anfiteatro Flavio` come nome del concetto `Colosseo` non richiede di riclassificare le foto già associate.
 
-L'utente può aggiungere annotazioni, spiegare perché ha salvato il file e descriverne il rapporto con altri contenuti o con lo scopo di Space. Queste informazioni restano espresse in linguaggio naturale, senza doverle ridurre a categorie o tag, e contribuiscono alla rappresentazione insieme al contenuto disponibile e alla descrizione.
+**Metadati**: Tag e metadati sono conservati separatamente dai file. Per `foto1.jpg` puoi indicare autore e data, senza imporre gli stessi attributi a tutti i contenuti. Una proprietà può avere più valori oppure non essere specificata.
 
-La rappresentazione mantiene il riferimento al file originale e, quando possibile, ai singoli passaggi. La descrizione non sostituisce l'originale e i possibili collegamenti restano proposte da verificare.
+**Consultazione delle associazioni**: Da un file puoi consultare i suoi tag; da un tag puoi trovare i file associati. Combinando il concetto della città di Roma con l'etichetta `vacanza`, ottieni i file associati a entrambi.
 
-Anche i file che il sistema non può interpretare possono essere inseriti. In questi casi, la rappresentazione si basa sulla descrizione e sul contesto forniti dall'utente, senza considerare il contenuto come automaticamente compreso.
+La selezione applica criteri espliciti ai dati registrati: a parità di dati e criteri, restituisce gli stessi file.
+
+## Rappresentazione dei contenuti
+
+Per i formati supportati, l’ingestion legge il contenuto dei file e ne costruisce una rappresentazione attraverso tecniche come gli embedding vettoriali, reranking, cross domain, ecc. Questa rappresentazione permette di confrontare ciò che i contenuti esprimono, anche quando usano parole diverse o provengono da formati differenti.
+
+Le annotazioni dell’utente contribuiscono alla rappresentazione: possono chiarire un’espressione ambigua, aggiungere contesto o spiegare perché un contenuto è stato salvato. Per i file non supportati, descrizioni e annotazioni costituiscono la base della rappresentazione.
+
+Il Discovery Engine usa questa base per esplorare i contenuti rispetto alle maschere di contesto. Le vicinanze di significato non equivalgono a relazioni certe: servono a proporre collegamenti da verificare, senza modificare tag e metadati registrati.
+
+La rappresentazione mantiene il riferimento al file originale e, quando possibile, ai singoli passaggi. È un’interpretazione del contenuto, non un suo sostituto, e l’utente può correggere le descrizioni e le annotazioni che contribuiscono a definirla.
+
+
+___
+*Riferimenti:*
+- *[I1] [Designing better file organization around tags, not hierarchies](https://www.nayuki.io/page/designing-better-file-organization-around-tags-not-hierarchies)*
+- *[I2] [Managing digital photographs](https://karl-voit.at/managing-digital-photographs/)*
+- *[I3] [How to Use Tags](https://karl-voit.at/2022/01/29/How-to-Use-Tags/)*
+- *[I4] [Attenzione come Convergenza Energetica Geometrica](../references/internal/Attenzione%20come%20Convergenza%20Energetica%20Geometrica.md)*
+- *[I5] [A novel idea for a new file system](../references/internal/A%20novel%20idea%20for%20a%20new%20Filesystem.md)*

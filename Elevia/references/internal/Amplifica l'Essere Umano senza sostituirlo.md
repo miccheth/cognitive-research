@@ -4,6 +4,7 @@ Il sistema amplifica mente/corpo esistenti, non li altera. È un'**astrazione su
 
 **Esempio:** Memoria spaziale, Working Memory → ottimizzazioni che rispecchiano l'architettura umana, non la contraddicono.
 
+
 # Critica alla Cultura della Delega
 
 Abbiamo normalizzato il non approfondire, dandogli un'interfaccia elegante spacciandola per evoluzione.
